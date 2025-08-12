@@ -11,7 +11,7 @@ def check():
 @app.route('/info', methods=['GET'])
 def info():
     return jsonify({
-        "Instancia": "Maquina 2 - Api 2",
+        "Instancia": "Maquina 1 - Api 1",
         "Curso": "Seminario de Sistemas 1 A",
         "Grupo": "Grupo 4"
     })
